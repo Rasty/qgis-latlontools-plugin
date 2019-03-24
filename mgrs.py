@@ -169,7 +169,7 @@ def _upsToMgrs(hemisphere, easting, northing, precision):
         else:
             letters[0] = ALPHABET['Y']
 
-        idx = letters[0] - 22
+        idx = letters[0] - 23
         ltr2LowValue = UPS_CONSTANTS[idx][1]
         falseEasting = UPS_CONSTANTS[idx][4]
         falseNorthing = UPS_CONSTANTS[idx][5]
